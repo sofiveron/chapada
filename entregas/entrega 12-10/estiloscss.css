@@ -1,0 +1,83 @@
+#titulo {
+    font-family: 'Sacramento', cursive;
+    color: rgb(89, 218, 15);
+    text-align: center;
+    background-color: lightpink;
+    font-size: 300%;
+
+}
+
+#Info{
+    text-align: center;
+    color: lightcoral;
+    font-family: monospace;
+
+}
+
+#subtitulo{
+    font-family: monospace;
+    color: coral;   
+    text-align: center;
+    font-size: large;
+}
+
+img{
+    display:block;
+    margin:auto;
+}    
+
+ul1 {
+    list-style: none;
+    font-family: fantasy;
+    font-size: 0;
+}
+
+li{
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 14px
+}
+
+#destacado{
+    color: rgb(59, 87, 104);
+}
+
+table{
+    border-color: blueviolet;
+    font-family: monospace;
+    margin-left: 100px;
+}
+
+ul2{
+    color: lightskyblue;
+    font-family: monospace;
+    text-align: center;
+    font-size: larger;
+}
+
+#contacto{
+    font-family: monospace;
+    color: coral;   
+    text-align: center;
+    font-size: large;
+}
+
+#campos{
+        color: darkslateblue;
+        font-family: monospace;
+        font-size: medium;
+}
+
+ol{
+    color: darkmagenta ;
+    font-family: monospace;
+    font-size: medium;
+}
+
+
+footer{
+    color: lightskyblue;
+    font-family: monospace;
+    text-align: center;
+}

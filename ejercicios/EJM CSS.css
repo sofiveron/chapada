@@ -1,0 +1,13 @@
+#titulo{
+  font-family: fantasy;
+  color: blueviolet;
+  border: solid 1px black;
+  padding-left: 40%;
+}
+
+#info {
+    font-family: Verdana;
+    color: cornflowerblue;
+    background-color: black;
+    
+}

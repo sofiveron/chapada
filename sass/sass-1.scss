@@ -1,0 +1,121 @@
+@import"estructura_estiloscss.css"
+
+body{
+    #titulo { 
+        grid-area: titulo;
+        font-family: 'Sacramento', cursive;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 300%;
+        border: 1px solid black;
+        background-image: linear-gradient(rgb(165, 87, 189), rgb(61, 199, 192));
+        display: inline-block;
+    }
+     
+    #subtitulo{
+        grid-area: subtitulo;
+        font-family: monospace;
+        color: coral;   
+        text-align: center;
+        font-size: large;
+        font-size: 25px;
+    }
+    
+    nav {
+        grid-area: nav;
+        display: flex; flex-direction: row;
+        list-style: none;
+        font-family: fantasy;
+        justify-content: space-evenly;
+        position:relative;
+        font-size: 14px;
+    }
+    
+    #Info{
+        grid-area: subtitulo;
+        text-align: center;
+        color: lightcoral;
+        font-family: monospace;
+    }
+    
+    #elementos{
+        grid-area: elementos;
+        color: darkmagenta ;
+        font-family: monospace;
+        font-size: medium;   
+    }
+    
+    #instagram {
+        grid-area: instagram;
+        display: flex; flex-direction: row;
+        justify-content: center;
+        font-family: monospace;
+    }
+    
+    
+    ul{
+        display: flex; flex-direction: row;
+        list-style: none;
+        font-family: monospace;
+        justify-content: space-evenly;
+    
+    }
+    
+    ul dd {
+        position: absolute;
+        display: none;
+    }
+    
+    #carouselExampleControls{
+        grid-area: carouselExampleControls;
+        margin:auto;
+        height: 500px;
+        width: 1100px
+    }
+    
+    
+    #destacado{
+        color: rgb(59, 87, 104);
+    }
+    
+    ul2{
+        color: lightskyblue;
+        font-family: monospace;
+        text-align: center;
+        font-size: larger;
+    }
+    
+    #contacto{
+        font-family: monospace;
+        color: coral;   
+        text-align: center;
+        font-size: large;
+    }
+    
+    #campos{
+        color: darkslateblue;
+        font-family: monospace;
+        font-size: medium;
+    }
+    
+    
+    ol{
+        color: darkmagenta ;
+        font-family: monospace;
+        font-size: medium;
+    }
+    
+    table{
+        grid-area: tabla;  
+        color: darkmagenta ;
+        font-family: monospace;
+        font-size: medium;   
+    }
+    
+    footer {   
+        grid-area: footer;
+        color: lightskyblue;
+        font-family: monospace;
+        text-align: center;
+    }
+}

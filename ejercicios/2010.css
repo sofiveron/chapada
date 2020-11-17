@@ -1,0 +1,57 @@
+#grilla {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "nav productos publicidad"
+      "servicios servicios servicios"
+      "footer footer footer";
+      grid-template-rows: 80px 150px 1fr 75px;
+      grid-template-columns: 30% auto 15%
+ }
+
+ 
+ header {
+    font-family: 'Sacramento', cursive;
+    color: rgb(89, 218, 15);
+    text-align: center;
+    background-color: #ffb6c1;
+    font-size: 300%;
+    border: 1px solid black;
+    grid-area: ti;
+ }
+ footer {   
+    grid-area: footer;
+    color: lightskyblue;
+    font-family: monospace;
+    text-align: center;
+
+ }
+ #productos {
+    grid-area: productos;
+    font-family: monospace;
+    color: coral;   
+    text-align: center;
+    font-size: large;
+    font-size: 25px;
+    border: 1px solid black;     
+ }
+ section#servicios {
+    grid-area: servicios;  
+    color: darkmagenta ;
+    font-family: monospace;
+    font-size: medium;   
+    
+ }
+ nav {
+    grid-area: nav;
+    display: flex; flex-direction: row;
+    list-style: none;
+    font-family: fantasy;
+    justify-content: space-evenly;
+    position:relative;
+    font-size: 20px;
+
+ }
+
+ 
+ 

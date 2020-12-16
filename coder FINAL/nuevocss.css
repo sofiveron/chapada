@@ -1,0 +1,53 @@
+.navbar_style {
+    font-family: 'Dancing Script', cursive;;
+  font-size: 20px;
+  background-color: #1D2025 }
+
+.nav-link:hover {
+  border-bottom: 3p solid white;
+  transition: 0.3s; }
+
+body {
+    background-color: (212, 212, 212) }
+
+.body_style {
+  background-color: rgb(212, 212, 212);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px; }
+
+h1 {
+    font-family: 'Dancing Script', cursive;;
+  font-size: 60px; }
+
+h2 {
+    font-family: 'Dancing Script', cursive;;
+  font-size: 40px; }
+
+.navbar_style ul li a:hover {
+  color: #025373 !important;
+  border-bottom: 1px solid white; }
+
+.navbar-nav .nav-link {
+  color: white !important; }
+
+.footer_style {
+  background-color: #1D2025 ;
+  color: black;
+  font-size: 10px; }
+
+.footer_style a {
+  margin: 2%; }
+
+
+/* CONTACTO */
+.contact_main {
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+  .contact_main .contacto_text {
+    width: 60%;
+    margin: 20px; }
+  .contact_main .contact_form {
+    width: 40%;
+    padding: 20px; }
